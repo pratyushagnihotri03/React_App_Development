@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Table from './Table'
 
 function App() {
   return (
@@ -16,9 +17,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello, React !
         </a>
       </header>
+      <div className="container">
+        <Table />
+      </div>
     </div>
   );
 }
